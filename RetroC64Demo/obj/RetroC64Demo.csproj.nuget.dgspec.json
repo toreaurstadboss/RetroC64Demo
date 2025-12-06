@@ -10,14 +10,14 @@
         "projectUniqueName": "C:\\src\\RetroC64Demo\\RetroC64Demo\\RetroC64Demo.csproj",
         "projectName": "RetroC64Demo",
         "projectPath": "C:\\src\\RetroC64Demo\\RetroC64Demo\\RetroC64Demo.csproj",
-        "packagesPath": "C:\\Users\\toaurs-he\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\adm_toaurs\\.nuget\\packages\\",
         "outputPath": "C:\\src\\RetroC64Demo\\RetroC64Demo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\toaurs-he\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adm_toaurs\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -50,6 +50,12 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "RetroC64": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
